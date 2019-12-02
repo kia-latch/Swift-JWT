@@ -33,7 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		303AEC2D2394D5AE00F31D9C /* SwiftJWT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftJWT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		303AEC2D2394D5AE00F31D9C /* SwiftJWT_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftJWT_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		303AEC2F2394D5AE00F31D9C /* SwiftJWT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftJWT.h; sourceTree = "<group>"; };
 		303AEC302394D5AE00F31D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		303AEC362394D89100F31D9C /* BlueHMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlueHMAC.swift; path = Sources/SwiftJWT/BlueHMAC.swift; sourceTree = SOURCE_ROOT; };
@@ -83,7 +83,7 @@
 		303AEBFC2394D3D500F31D9C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				303AEC2D2394D5AE00F31D9C /* SwiftJWT.framework */,
+				303AEC2D2394D5AE00F31D9C /* SwiftJWT_tvOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,20 +136,20 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		303AEC2C2394D5AE00F31D9C /* SwiftJWT */ = {
+		303AEC2C2394D5AE00F31D9C /* SwiftJWT tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 303AEC322394D5AE00F31D9C /* Build configuration list for PBXNativeTarget "SwiftJWT" */;
+			buildConfigurationList = 303AEC322394D5AE00F31D9C /* Build configuration list for PBXNativeTarget "SwiftJWT tvOS" */;
 			buildPhases = (
-				303AEC282394D5AE00F31D9C /* Headers */,
 				303AEC292394D5AE00F31D9C /* Sources */,
 				303AEC2A2394D5AE00F31D9C /* Frameworks */,
+				303AEC282394D5AE00F31D9C /* Headers */,
 				303AEC2B2394D5AE00F31D9C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftJWT;
+			name = "SwiftJWT tvOS";
 			packageProductDependencies = (
 				303AEC592394D8DD00F31D9C /* CryptorRSA */,
 				303AEC5C2394D8ED00F31D9C /* Cryptor */,
@@ -158,7 +158,7 @@
 				303AEC652394D92D00F31D9C /* KituraContracts */,
 			);
 			productName = SwiftJWT;
-			productReference = 303AEC2D2394D5AE00F31D9C /* SwiftJWT.framework */;
+			productReference = 303AEC2D2394D5AE00F31D9C /* SwiftJWT_tvOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +196,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				303AEC2C2394D5AE00F31D9C /* SwiftJWT */,
+				303AEC2C2394D5AE00F31D9C /* SwiftJWT tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -362,6 +362,7 @@
 		303AEC332394D5AE00F31D9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -384,13 +385,13 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
 		303AEC342394D5AE00F31D9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -412,7 +413,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
@@ -428,7 +428,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		303AEC322394D5AE00F31D9C /* Build configuration list for PBXNativeTarget "SwiftJWT" */ = {
+		303AEC322394D5AE00F31D9C /* Build configuration list for PBXNativeTarget "SwiftJWT tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				303AEC332394D5AE00F31D9C /* Debug */,
