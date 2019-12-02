@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "303AEC2C2394D5AE00F31D9C"
-               BuildableName = "SwiftJWT_tvOS.framework"
+               BuildableName = "SwiftJWT.framework"
                BlueprintName = "SwiftJWT tvOS"
                ReferencedContainer = "container:SwiftJWT.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "303AEC2C2394D5AE00F31D9C"
-            BuildableName = "SwiftJWT_tvOS.framework"
+            BuildableName = "SwiftJWT.framework"
             BlueprintName = "SwiftJWT tvOS"
             ReferencedContainer = "container:SwiftJWT.xcodeproj">
          </BuildableReference>
