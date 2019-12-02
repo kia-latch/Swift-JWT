@@ -3,17 +3,56 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		303AEC312394D5AE00F31D9C /* SwiftJWT.h in Headers */ = {isa = PBXBuildFile; fileRef = 303AEC2F2394D5AE00F31D9C /* SwiftJWT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303AEC472394D89100F31D9C /* BlueHMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AEC362394D89100F31D9C /* BlueHMAC.swift */; };
+		303AEC482394D89100F31D9C /* VerifierAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AEC372394D89100F31D9C /* VerifierAlgorithm.swift */; };
+		303AEC492394D89100F31D9C /* JWTEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AEC382394D89100F31D9C /* JWTEncoder.swift */; };
+		303AEC4A2394D89100F31D9C /* RSAKeyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AEC392394D89100F31D9C /* RSAKeyType.swift */; };
+		303AEC4B2394D89100F31D9C /* JWTDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AEC3A2394D89100F31D9C /* JWTDecoder.swift */; };
+		303AEC4C2394D89100F31D9C /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AEC3B2394D89100F31D9C /* JWT.swift */; };
+		303AEC4D2394D89100F31D9C /* SignerAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AEC3C2394D89100F31D9C /* SignerAlgorithm.swift */; };
+		303AEC4E2394D89100F31D9C /* Claims.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AEC3D2394D89100F31D9C /* Claims.swift */; };
+		303AEC4F2394D89100F31D9C /* ValidateClaimsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AEC3E2394D89100F31D9C /* ValidateClaimsResult.swift */; };
+		303AEC502394D89100F31D9C /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AEC3F2394D89100F31D9C /* Header.swift */; };
+		303AEC512394D89100F31D9C /* NoneAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AEC402394D89100F31D9C /* NoneAlgorithm.swift */; };
+		303AEC522394D89100F31D9C /* BlueRSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AEC412394D89100F31D9C /* BlueRSA.swift */; };
+		303AEC532394D89100F31D9C /* JWTVerifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AEC422394D89100F31D9C /* JWTVerifier.swift */; };
+		303AEC542394D89100F31D9C /* BlueECDSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AEC432394D89100F31D9C /* BlueECDSA.swift */; };
+		303AEC552394D89100F31D9C /* JWTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AEC442394D89100F31D9C /* JWTError.swift */; };
+		303AEC562394D89100F31D9C /* Data+Base64URLEncoded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AEC452394D89100F31D9C /* Data+Base64URLEncoded.swift */; };
+		303AEC572394D89100F31D9C /* JWTSigner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AEC462394D89100F31D9C /* JWTSigner.swift */; };
+		303AEC5A2394D8DD00F31D9C /* CryptorRSA in Frameworks */ = {isa = PBXBuildFile; productRef = 303AEC592394D8DD00F31D9C /* CryptorRSA */; };
+		303AEC5D2394D8ED00F31D9C /* Cryptor in Frameworks */ = {isa = PBXBuildFile; productRef = 303AEC5C2394D8ED00F31D9C /* Cryptor */; };
+		303AEC602394D8FF00F31D9C /* CryptorECC in Frameworks */ = {isa = PBXBuildFile; productRef = 303AEC5F2394D8FF00F31D9C /* CryptorECC */; };
+		303AEC632394D91900F31D9C /* LoggerAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 303AEC622394D91900F31D9C /* LoggerAPI */; };
+		303AEC662394D92D00F31D9C /* KituraContracts in Frameworks */ = {isa = PBXBuildFile; productRef = 303AEC652394D92D00F31D9C /* KituraContracts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		303AEC2D2394D5AE00F31D9C /* SwiftJWT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftJWT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		303AEC2F2394D5AE00F31D9C /* SwiftJWT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftJWT.h; sourceTree = "<group>"; };
 		303AEC302394D5AE00F31D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303AEC362394D89100F31D9C /* BlueHMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlueHMAC.swift; path = Sources/SwiftJWT/BlueHMAC.swift; sourceTree = SOURCE_ROOT; };
+		303AEC372394D89100F31D9C /* VerifierAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VerifierAlgorithm.swift; path = Sources/SwiftJWT/VerifierAlgorithm.swift; sourceTree = SOURCE_ROOT; };
+		303AEC382394D89100F31D9C /* JWTEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JWTEncoder.swift; path = Sources/SwiftJWT/JWTEncoder.swift; sourceTree = SOURCE_ROOT; };
+		303AEC392394D89100F31D9C /* RSAKeyType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSAKeyType.swift; path = Sources/SwiftJWT/RSAKeyType.swift; sourceTree = SOURCE_ROOT; };
+		303AEC3A2394D89100F31D9C /* JWTDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JWTDecoder.swift; path = Sources/SwiftJWT/JWTDecoder.swift; sourceTree = SOURCE_ROOT; };
+		303AEC3B2394D89100F31D9C /* JWT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JWT.swift; path = Sources/SwiftJWT/JWT.swift; sourceTree = SOURCE_ROOT; };
+		303AEC3C2394D89100F31D9C /* SignerAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignerAlgorithm.swift; path = Sources/SwiftJWT/SignerAlgorithm.swift; sourceTree = SOURCE_ROOT; };
+		303AEC3D2394D89100F31D9C /* Claims.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Claims.swift; path = Sources/SwiftJWT/Claims.swift; sourceTree = SOURCE_ROOT; };
+		303AEC3E2394D89100F31D9C /* ValidateClaimsResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ValidateClaimsResult.swift; path = Sources/SwiftJWT/ValidateClaimsResult.swift; sourceTree = SOURCE_ROOT; };
+		303AEC3F2394D89100F31D9C /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Header.swift; path = Sources/SwiftJWT/Header.swift; sourceTree = SOURCE_ROOT; };
+		303AEC402394D89100F31D9C /* NoneAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoneAlgorithm.swift; path = Sources/SwiftJWT/NoneAlgorithm.swift; sourceTree = SOURCE_ROOT; };
+		303AEC412394D89100F31D9C /* BlueRSA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlueRSA.swift; path = Sources/SwiftJWT/BlueRSA.swift; sourceTree = SOURCE_ROOT; };
+		303AEC422394D89100F31D9C /* JWTVerifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JWTVerifier.swift; path = Sources/SwiftJWT/JWTVerifier.swift; sourceTree = SOURCE_ROOT; };
+		303AEC432394D89100F31D9C /* BlueECDSA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlueECDSA.swift; path = Sources/SwiftJWT/BlueECDSA.swift; sourceTree = SOURCE_ROOT; };
+		303AEC442394D89100F31D9C /* JWTError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JWTError.swift; path = Sources/SwiftJWT/JWTError.swift; sourceTree = SOURCE_ROOT; };
+		303AEC452394D89100F31D9C /* Data+Base64URLEncoded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Data+Base64URLEncoded.swift"; path = "Sources/SwiftJWT/Data+Base64URLEncoded.swift"; sourceTree = SOURCE_ROOT; };
+		303AEC462394D89100F31D9C /* JWTSigner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JWTSigner.swift; path = Sources/SwiftJWT/JWTSigner.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +60,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303AEC662394D92D00F31D9C /* KituraContracts in Frameworks */,
+				303AEC602394D8FF00F31D9C /* CryptorECC in Frameworks */,
+				303AEC5D2394D8ED00F31D9C /* Cryptor in Frameworks */,
+				303AEC5A2394D8DD00F31D9C /* CryptorRSA in Frameworks */,
+				303AEC632394D91900F31D9C /* LoggerAPI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,6 +74,7 @@
 		303AEBF12394D3D500F31D9C = {
 			isa = PBXGroup;
 			children = (
+				303AEC352394D85D00F31D9C /* Source */,
 				303AEC2E2394D5AE00F31D9C /* Resources */,
 				303AEBFC2394D3D500F31D9C /* Products */,
 			);
@@ -51,6 +96,30 @@
 			);
 			name = Resources;
 			path = Sources/Resources;
+			sourceTree = "<group>";
+		};
+		303AEC352394D85D00F31D9C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				303AEC432394D89100F31D9C /* BlueECDSA.swift */,
+				303AEC362394D89100F31D9C /* BlueHMAC.swift */,
+				303AEC412394D89100F31D9C /* BlueRSA.swift */,
+				303AEC3D2394D89100F31D9C /* Claims.swift */,
+				303AEC452394D89100F31D9C /* Data+Base64URLEncoded.swift */,
+				303AEC3F2394D89100F31D9C /* Header.swift */,
+				303AEC3B2394D89100F31D9C /* JWT.swift */,
+				303AEC3A2394D89100F31D9C /* JWTDecoder.swift */,
+				303AEC382394D89100F31D9C /* JWTEncoder.swift */,
+				303AEC442394D89100F31D9C /* JWTError.swift */,
+				303AEC462394D89100F31D9C /* JWTSigner.swift */,
+				303AEC422394D89100F31D9C /* JWTVerifier.swift */,
+				303AEC402394D89100F31D9C /* NoneAlgorithm.swift */,
+				303AEC392394D89100F31D9C /* RSAKeyType.swift */,
+				303AEC3C2394D89100F31D9C /* SignerAlgorithm.swift */,
+				303AEC3E2394D89100F31D9C /* ValidateClaimsResult.swift */,
+				303AEC372394D89100F31D9C /* VerifierAlgorithm.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,6 +150,13 @@
 			dependencies = (
 			);
 			name = SwiftJWT;
+			packageProductDependencies = (
+				303AEC592394D8DD00F31D9C /* CryptorRSA */,
+				303AEC5C2394D8ED00F31D9C /* Cryptor */,
+				303AEC5F2394D8FF00F31D9C /* CryptorECC */,
+				303AEC622394D91900F31D9C /* LoggerAPI */,
+				303AEC652394D92D00F31D9C /* KituraContracts */,
+			);
 			productName = SwiftJWT;
 			productReference = 303AEC2D2394D5AE00F31D9C /* SwiftJWT.framework */;
 			productType = "com.apple.product-type.framework";
@@ -96,6 +172,7 @@
 				TargetAttributes = {
 					303AEC2C2394D5AE00F31D9C = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 					};
 				};
 			};
@@ -108,6 +185,13 @@
 				Base,
 			);
 			mainGroup = 303AEBF12394D3D500F31D9C;
+			packageReferences = (
+				303AEC582394D8DD00F31D9C /* XCRemoteSwiftPackageReference "BlueRSA" */,
+				303AEC5B2394D8ED00F31D9C /* XCRemoteSwiftPackageReference "BlueCryptor" */,
+				303AEC5E2394D8FF00F31D9C /* XCRemoteSwiftPackageReference "BlueECC" */,
+				303AEC612394D91900F31D9C /* XCRemoteSwiftPackageReference "LoggerAPI" */,
+				303AEC642394D92D00F31D9C /* XCRemoteSwiftPackageReference "KituraContracts" */,
+			);
 			productRefGroup = 303AEBFC2394D3D500F31D9C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,6 +216,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303AEC542394D89100F31D9C /* BlueECDSA.swift in Sources */,
+				303AEC532394D89100F31D9C /* JWTVerifier.swift in Sources */,
+				303AEC502394D89100F31D9C /* Header.swift in Sources */,
+				303AEC4E2394D89100F31D9C /* Claims.swift in Sources */,
+				303AEC522394D89100F31D9C /* BlueRSA.swift in Sources */,
+				303AEC562394D89100F31D9C /* Data+Base64URLEncoded.swift in Sources */,
+				303AEC4A2394D89100F31D9C /* RSAKeyType.swift in Sources */,
+				303AEC552394D89100F31D9C /* JWTError.swift in Sources */,
+				303AEC492394D89100F31D9C /* JWTEncoder.swift in Sources */,
+				303AEC472394D89100F31D9C /* BlueHMAC.swift in Sources */,
+				303AEC482394D89100F31D9C /* VerifierAlgorithm.swift in Sources */,
+				303AEC4F2394D89100F31D9C /* ValidateClaimsResult.swift in Sources */,
+				303AEC572394D89100F31D9C /* JWTSigner.swift in Sources */,
+				303AEC4D2394D89100F31D9C /* SignerAlgorithm.swift in Sources */,
+				303AEC4B2394D89100F31D9C /* JWTDecoder.swift in Sources */,
+				303AEC512394D89100F31D9C /* NoneAlgorithm.swift in Sources */,
+				303AEC4C2394D89100F31D9C /* JWT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +362,7 @@
 		303AEC332394D5AE00F31D9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = S89CQLFEK8;
@@ -279,6 +381,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.0;
@@ -288,6 +391,7 @@
 		303AEC342394D5AE00F31D9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = S89CQLFEK8;
@@ -334,6 +438,77 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		303AEC582394D8DD00F31D9C /* XCRemoteSwiftPackageReference "BlueRSA" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/IBM-Swift/BlueRSA.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.34;
+			};
+		};
+		303AEC5B2394D8ED00F31D9C /* XCRemoteSwiftPackageReference "BlueCryptor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/IBM-Swift/BlueCryptor.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.32;
+			};
+		};
+		303AEC5E2394D8FF00F31D9C /* XCRemoteSwiftPackageReference "BlueECC" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/IBM-Swift/BlueECC.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.5;
+			};
+		};
+		303AEC612394D91900F31D9C /* XCRemoteSwiftPackageReference "LoggerAPI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/IBM-Swift/LoggerAPI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.0;
+			};
+		};
+		303AEC642394D92D00F31D9C /* XCRemoteSwiftPackageReference "KituraContracts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/IBM-Swift/KituraContracts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		303AEC592394D8DD00F31D9C /* CryptorRSA */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 303AEC582394D8DD00F31D9C /* XCRemoteSwiftPackageReference "BlueRSA" */;
+			productName = CryptorRSA;
+		};
+		303AEC5C2394D8ED00F31D9C /* Cryptor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 303AEC5B2394D8ED00F31D9C /* XCRemoteSwiftPackageReference "BlueCryptor" */;
+			productName = Cryptor;
+		};
+		303AEC5F2394D8FF00F31D9C /* CryptorECC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 303AEC5E2394D8FF00F31D9C /* XCRemoteSwiftPackageReference "BlueECC" */;
+			productName = CryptorECC;
+		};
+		303AEC622394D91900F31D9C /* LoggerAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 303AEC612394D91900F31D9C /* XCRemoteSwiftPackageReference "LoggerAPI" */;
+			productName = LoggerAPI;
+		};
+		303AEC652394D92D00F31D9C /* KituraContracts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 303AEC642394D92D00F31D9C /* XCRemoteSwiftPackageReference "KituraContracts" */;
+			productName = KituraContracts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 303AEBF22394D3D500F31D9C /* Project object */;
 }
